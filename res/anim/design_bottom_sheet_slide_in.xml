@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" n1:interpolator="0x10a0004" n1:duration="@integer/bottom_sheet_slide_duration">
+    <translate n1:fromYDelta="20%p" n1:toYDelta="0.0" />
+    <alpha n1:fromAlpha="0.0" n1:toAlpha="1.0" />
+</set>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" n1:height="24dp" n1:width="24dp" n1:viewportWidth="24.0" n1:viewportHeight="24.0">
+    <path n1:fillColor="0x106000b" n1:pathData="@string/path_password_eye" />
+</vector>

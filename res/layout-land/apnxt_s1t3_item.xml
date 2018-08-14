@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <ImageView n1:id="@id/background_image" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" />
+    <View n1:background="0x106000c" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.4" />
+    <RelativeLayout n1:id="@id/itemRelativeLayout" n1:background="@drawable/apnxt_white_rect" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x4b01" n1:layout_marginLeft="40dp" n1:layout_marginRight="40dp" n1:layout_marginBottom="60dp" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true">
+        <ImageView n1:id="@id/little_play_button" n1:layout_width="UNKNOWN_DATA_0x1901" n1:layout_height="UNKNOWN_DATA_0x1901" n1:layout_margin="10dp" n1:src="@drawable/apnxt_small_play_button" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" />
+        <ImageView n1:id="@id/icon" n1:layout_width="UNKNOWN_DATA_0x3401" n1:layout_height="UNKNOWN_DATA_0x3401" n1:layout_marginLeft="11dp" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+        <TextView n1:textSize="15sp" n1:textColor="#ff898989" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="10dp" n1:text="First game label First game label" n1:layout_toLeftOf="@id/little_play_button" n1:layout_toRightOf="@id/icon" n1:layout_alignTop="@id/icon" n1:scaleY="1.1" />
+        <RatingBar n1:id="@id/ratingBar" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignLeft="@id/title" n1:layout_alignBottom="@id/icon" style="@style/apnxtRatingBar" />
+    </RelativeLayout>
+    <View n1:id="@id/click" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</RelativeLayout>

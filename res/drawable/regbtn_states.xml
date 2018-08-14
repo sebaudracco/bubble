@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item n1:state_focused="true" n1:drawable="@r$drawable/regbtn2_pressed" />
+    <item n2:state_checked="true" n2:drawable="@r$drawable/regbtn2_pressed" />
+    <item n3:state_pressed="true" n3:drawable="@r$drawable/regbtn2_pressed" />
+    <item n4:drawable="@r$drawable/regbtn2" />
+</selector>

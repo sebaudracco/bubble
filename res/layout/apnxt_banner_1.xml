@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:background="@drawable/banner_border" n1:layout_width="UNKNOWN_DATA_0x14001" n1:layout_height="UNKNOWN_DATA_0x3201">
+    <ImageView n1:id="@id/icon" n1:layout_width="UNKNOWN_DATA_0x2401" n1:layout_height="UNKNOWN_DATA_0x2401" n1:layout_margin="7dp" n1:layout_alignParentLeft="true" />
+    <TextView n1:textSize="14sp" n1:textColor="#ff000000" n1:ellipsize="end" n1:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_toLeftOf="@id/install" n1:layout_toRightOf="@id/icon" n1:layout_alignTop="@id/icon" />
+    <Button n1:textSize="10sp" n1:textStyle="bold" n1:textColor="#ffffffff" n1:ellipsize="end" n1:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/install" n1:background="@drawable/apnxt_green_round_rect_banner" n1:layout_width="UNKNOWN_DATA_0x4101" n1:layout_height="UNKNOWN_DATA_0x1e01" n1:layout_marginLeft="10dp" n1:layout_marginRight="35dp" n1:text="Install" n1:lines="1" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+    <RatingBar n1:id="@id/ratingBar" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignLeft="@id/title" n1:layout_alignBottom="@id/icon" style="@style/apnxtRatingBar" />
+    <ImageView n1:id="@id/privacy" n1:paddingLeft="12dp" n1:paddingTop="7dp" n1:paddingRight="7dp" n1:paddingBottom="12dp" n1:layout_width="UNKNOWN_DATA_0x1e01" n1:layout_height="UNKNOWN_DATA_0x1e01" n1:src="@drawable/apnxt_banner_i_icon" n1:layout_alignParentRight="true" />
+</RelativeLayout>

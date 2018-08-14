@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" n1:enterFadeDuration="150" n1:exitFadeDuration="300">
+    <item n1:state_pressed="true">
+        <layer-list>
+            <item n1:left="4dp" n1:top="4dp" n1:right="4dp" n1:bottom="4dp">
+                <shape n1:shape="oval">
+                    <solid n1:color="#25000000" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

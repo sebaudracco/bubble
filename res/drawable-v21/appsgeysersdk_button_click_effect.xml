@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" n1:color="#fffa9491">
+    <item>
+        <shape n1:shape="rectangle">
+            <solid n1:color="@color/appsgeysersdk_actionButtonBacground" />
+            <corners n1:radius="6dp" />
+        </shape>
+    </item>
+    <item n1:id="0x102002e">
+        <shape n1:shape="rectangle">
+            <solid n1:color="#fffa9491" />
+        </shape>
+    </item>
+</ripple>

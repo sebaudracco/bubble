@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.internal.NavigationMenuItemView xmlns:android="http://schemas.android.com/apk/res/android" n1:paddingLeft="?attr/listPreferredItemPaddingLeft" n1:paddingRight="?attr/listPreferredItemPaddingRight" n1:focusable="true" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x7f040123" n1:foreground="?attr/selectableItemBackground" />

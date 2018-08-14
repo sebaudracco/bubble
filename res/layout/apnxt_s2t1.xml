@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent"
+    <RelativeLayout n1:id="@id/media" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+        <ImageView n1:id="@id/loader" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/apnxt_streaming_loader" n1:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView n1:id="@id/privacy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="5dp" n1:src="@drawable/apnxt_ads_i_icon" n1:layout_alignParentLeft="true" />
+    <ImageView n1:id="@id/close" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="5dp" n1:src="@drawable/apnxt_x_icon" n1:layout_alignParentRight="true" />
+    <com.appnext.ads.fullscreen.Circle n1:id="@id/circle" n1:layout_width="UNKNOWN_DATA_0x2201" n1:layout_height="UNKNOWN_DATA_0x2201" n1:layout_margin="12dp" n1:layout_below="@id/media" n1:layout_alignParentLeft="true" />
+    <RelativeLayout n1:id="@id/button" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="10dp" n1:layout_below="@id/media" n1:layout_alignParentRight="true">
+        <Button n1:textSize="14sp" n1:textStyle="bold" n1:textColor="#ffffffff" n1:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/install" n1:background="@drawable/apnxt_green_round_rect" n1:paddingLeft="30dp" n1:paddingRight="30dp" n1:layout_width="wrap_content" n1:layout_height="UNKNOWN_DATA_0x2801" n1:text="Install" />
+        <ImageView n1:id="@id/v_view" n1:padding="5dp" n1:visibility="gone" n1:layout_width="UNKNOWN_DATA_0x2301" n1:layout_height="UNKNOWN_DATA_0x2301" n1:src="@drawable/apnxt_v" n1:scaleType="centerInside" n1:layout_alignLeft="@id/install" n1:layout_alignRight="@id/install" />
+    </RelativeLayout>
+    <TextView n1:textSize="16sp" n1:textColor="#ff55a11f" n1:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/click_txt" n1:padding="4dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="3dp" n1:text="You will be redirected to Google Play once the ad will finish" n1:layout_toLeftOf="@id/button" n1:layout_toRightOf="@id/circle" n1:layout_below="@id/media" />
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android" n1:drawable="@drawable/apnxt_loader" n1:pivotX="50%" n1:pivotY="50%" />

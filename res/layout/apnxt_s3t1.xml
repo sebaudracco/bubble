@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <TextView n1:textSize="30sp" n1:textColor="#ffffffff" n1:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="5dp" n1:text="Thanks for watching!" n1:layout_above="@id/media_view" n1:scaleY="1.1" n1:fontFamily="sans-serif-thin" />
+    <RelativeLayout n1:id="@id/media_view" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+        <ImageView n1:id="@id/media" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:scaleType="fitCenter" />
+        <RelativeLayout n1:background="0x106000b" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x5001" n1:layout_below="@id/media">
+            <ImageView n1:id="@id/icon" n1:layout_width="UNKNOWN_DATA_0x3c01" n1:layout_height="UNKNOWN_DATA_0x3c01" n1:layout_margin="10dp" n1:layout_alignParentLeft="true" />
+            <TextView n1:textSize="18sp" n1:textColor="#ff4f4f4f" n1:id="@id/title" n1:layout_width="UNKNOWN_DATA_0x22601" n1:layout_height="UNKNOWN_DATA_0x2801" n1:lines="1" n1:layout_toLeftOf="@id/install" n1:layout_toRightOf="@id/icon" n1:layout_alignTop="@id/icon" n1:fontFamily="sans-serif-thin" />
+            <TextView n1:textSize="16sp" n1:textColor="#ff55a11f" n1:id="@id/install" n1:paddingRight="10dp" n1:paddingBottom="10dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Install" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" />
+            <RatingBar n1:id="@id/rating" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/icon" n1:layout_alignBottom="@id/icon" style="@style/apnxtRatingBar" />
+            <View n1:id="@id/click" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView n1:id="@id/privacy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="5dp" n1:src="@drawable/apnxt_ads_i_icon" n1:layout_alignParentLeft="true" />
+    <ImageView n1:id="@id/close" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="5dp" n1:src="@drawable/apnxt_x_icon" n1:layout_alignParentRight="true" />
+</RelativeLayout>

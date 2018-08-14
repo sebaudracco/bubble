@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" n2:layout_width="UNKNOWN_DATA_0x6401" n2:layout_height="wrap_content" n2:layout_margin="8dp" n2:cardCornerRadius="6dp" n2:cardElevation="8dp">
+    <LinearLayout n2:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n2:orientation="vertical" n2:padding="8dp" n2:layout_width="match_parent" n2:layout_height="wrap_content">
+        <ImageView n2:id="@id/appsgeysersdk_adsIcon" n2:layout_width="UNKNOWN_DATA_0x5601" n2:layout_height="UNKNOWN_DATA_0x5601" />
+        <TextView n2:textColor="0x106000c" n2:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n2:id="@id/appsgeysersdk_adsTitle" n2:layout_width="match_parent" n2:layout_height="wrap_content" n2:lines="4" />
+        <Button n2:id="@id/appsgeysersdk_adsActionButton" n2:background="@drawable/appsgeysersdk_action_button_background" n2:layout_width="match_parent" n2:layout_height="UNKNOWN_DATA_0x1c01" />
+    </LinearLayout>
+    <ProgressBar n2:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n2:id="@id/appsgeysersdk_itemProgressBar" n2:visibility="gone" n2:layout_width="wrap_content" n2:layout_height="wrap_content" />
+</android.support.v7.widget.CardView>

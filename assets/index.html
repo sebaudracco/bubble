@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Messenger</title>
+    <style>
+        html
+        {
+
+            font-family: Arial,sans-serif;
+            font-size: 62.5%;
+            overflow-x: hidden;
+        }
+        html, body
+        {
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #000;
+        }
+
+        body
+        {
+            font-size: 1.3em;
+        }
+        html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            overflow: hidden;
+        }
+        body {
+            position: absolute;
+            height: 100%;
+            background-color: #aee;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            font-family: Roboto, sans-serif;
+            overflow: hidden;
+        }
+
+        * {
+            box-sizing: content-box !important;
+        }
+
+        .action-bar {
+            background-color: #ff0000;
+            box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            height: 40px;
+        }
+
+        .message-bar {
+            background-color: #fff;
+            width: 100%;
+            height: 40px;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .back-button {
+            float: left;
+            height: 40px;
+            width: 13px;
+            background: url("img/slidearrow.png");
+            background-repeat: no-repeat;
+            background-position: 2px 13px;
+        }
+
+        .title-box {
+            float: left;
+            height: 40px;
+            padding-top: 2px;
+        }
+
+        .title {
+            font-size: 16px;
+            color: white;
+        }
+
+        .subtitle {
+            margin-top: -2px;
+            font-size: 12px;
+            color: #d7e8f7;
+        }
+
+        .attach-button {
+            float: right;
+            height: 40px;
+            width: 40px;
+            background: url("img/doc_blue.png");
+            background-repeat: no-repeat;
+            background-position: 0px 3px;
+        }
+
+        .avatar {
+            float: right;
+            height: 40px;
+            width: 40px;
+            background: url("img/group_blue.png");
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+        }
+
+        .status-message-wrapper {
+            text-align: center;
+        }
+
+        .status-message {
+            display: inline-block;
+            margin: 5px auto;
+            background-color: #a9a9a9;
+            padding: 0px 4px;
+            color: #fff;
+            border-radius: 2px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .user-avatar {
+            float: left;
+            margin: 4px;
+            height: 37px;
+            width: 37px;
+            margin-top: 16px;
+            background: url("img/user_green.png");
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+        }
+
+        .message-in-triangle {
+            margin-top: 32px;
+            float: left;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 7.5px 10px 7.5px 0;
+            border-color: transparent #ffffff transparent transparent;
+
+        }
+
+        .message-in {
+            background-color: #fff;
+            float: left;
+            padding: 4px;
+            padding-right: 45px;
+            border-radius: 4px;
+            position: relative;
+        }
+
+        .message-in-title {
+            color: #4faf16;
+        }
+
+        .message-in-time {
+            font-size: 12px;
+            position: absolute;
+            bottom: 0;
+            right: 3px;
+            color: #a1aab3;
+        }
+
+        .message-out-triangle {
+            float: right;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 7.5px 0 7.5px 10px;
+            border-color: transparent transparent transparent #e6ffd1;
+            margin-top: 32px;
+
+        }
+
+        .message-out-wrapper {
+            margin: 5px 0;
+        }
+
+        .message-out {
+            width: 70%;
+            float: right;
+            background-color: #e6ffd1;
+            padding: 4px;
+            padding-right: 43px;
+            border-radius: 4px;
+            position: relative;
+        }
+
+        .message-out-time {
+            position: absolute;
+            right: 23px;
+            bottom: 0;
+            font-size: 12px;
+            color: #70b15c;
+        }
+
+        .message-out-status {
+            position: absolute;
+            right: 3px;
+            bottom: 3px;
+            width: 18px;
+            height: 12px;
+            background: url("img/dialogs_check.png"), url("img/dialogs_halfcheck.png");
+            background-position: 0 0, 5px 0;
+            background-repeat: no-repeat;
+        }
+
+        .smiley-button {
+            float: left;
+            width: 40px;
+            height: 40px;
+            background-image: url('img/ic_msg_panel_smiles.png');
+            background-repeat: no-repeat;
+            background-position: 6px 10px;
+        }
+
+        .mic-button {
+            float: right;
+            width: 34px;
+            height: 40px;
+            background-image: url('img/mic.png');
+            background-repeat: no-repeat;
+            background-position: 6px 10px;
+        }
+
+        .message-input {
+            padding: 8px;
+        }
+
+        .message-input span {
+            padding-left: 8px;
+            display: inline-block;
+            width: 234px;
+            height: 26px;
+            color: #909090;
+            border-bottom: 2px solid #33b5e5;
+            position: relative;
+        }
+        .message-input span:after {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            content: '';
+            display: block;
+            width: 242px;
+            height: 6px;
+            border-left: 2px solid #33b5e5;
+            border-right: 2px solid #33b5e5;
+        }
+        .action-bar {
+            background-color: #0151d4;
+        }
+        body {
+            background-color: #c0f6ff;
+        }
+        .message-input {
+            background-color: #FFFFFF;
+        }
+        .message-in {
+            background-color: #FAFAFA;
+        }
+        .message-in-triangle {
+            border-color: transparent #FAFAFA transparent transparent;
+        }
+        .message-out {
+            background-color: #AAFFAA;
+        }
+        .message-out-triangle {
+            border-color: transparent transparent transparent #AAFFAA;
+        }
+
+    </style>
+</head>
+<body>
+<div class="action-bar">
+    <div class="back-button"></div>
+    <div class="title-box">
+        <div class="title">Your chat name</div>
+        <div class="subtitle">5 members, 2 online</div>
+    </div>
+    <div class="avatar"></div>
+    <div class="attach-button"></div>
+</div>
+<div class="clearfix"></div>
+<div class="status-message-wrapper"><span class="status-message">June 17</span></div>
+<div class="status-message-wrapper"><span class="status-message">Test User 1 joined the group</span></div>
+<div class="status-message-wrapper"><span class="status-message">Test User 2 joined the group</span></div>
+<div class="message-in-wrapper">
+    <div class="user-avatar"></div>
+    <div class="message-in-triangle"></div>
+    <div class="message-in">
+        <div class="message-in-title">
+            Test User 1
+        </div>
+        <div class="message-in-text">
+            Hi! How are you doing?
+        </div>
+        <div class="message-in-time">
+            11:25
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="message-out-wrapper">
+    <div class="message-out-triangle"></div>
+    <div class="message-out">This preview is only for styling purposes. It's not functional.
+        <div class="message-out-time">11:30</div>
+        <div class="message-out-status"></div>
+    </div>
+</div>
+<div class="message-bar">
+    <div class="smiley-button"></div>
+    <div class="mic-button"></div>
+    <div class="message-input"><span>Type message</span></div>
+</div>
+<script
+        src="jquery.js"></script>
+<script src="settings.js"></script>
+<script>
+    if(Settings.backgroundImage !== ""){
+        $('body').css({background: 'url('+Settings.backgroundImage+')'});
+        $('body').css({backgroundSize: 'cover'});
+    } else {
+        $('body').css({backgroundColor: '#'+Settings.backgroundColor});
+    }
+    $('.action-bar').css({backgroundColor: '#'+Settings.actionBarColor});
+    $('.message-out').css({backgroundColor: '#'+Settings.sentColor, color:'#'+Settings.textColor});
+    $('.message-in').css({backgroundColor: '#'+Settings.receivedColor, color:'#'+Settings.textColor});
+</script>
+</body>
+</html>

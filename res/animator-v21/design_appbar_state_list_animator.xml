@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item n2:state_enabled="true" n2:state_collapsed="false" n2:state_collapsible="true">
+        <objectAnimator n2:duration="@integer/app_bar_elevation_anim_duration" n2:valueTo="0dp" n2:valueType="floatType" n2:propertyName="elevation" />
+    </item>
+    <item n3:state_enabled="true">
+        <objectAnimator n3:duration="@integer/app_bar_elevation_anim_duration" n3:valueTo="@dimen/design_appbar_elevation" n3:valueType="floatType" n3:propertyName="elevation" />
+    </item>
+    <item>
+        <objectAnimator n4:duration="0" n4:valueTo="0" n4:valueType="floatType" n4:propertyName="elevation" />
+    </item>
+</selector>

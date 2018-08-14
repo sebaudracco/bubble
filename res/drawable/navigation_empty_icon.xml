@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" n1:shape="rectangle">
+    <solid n1:color="0x106000d" />
+    <size n1:height="@dimen/design_navigation_icon_size" n1:width="@dimen/design_navigation_icon_size" />
+</shape>

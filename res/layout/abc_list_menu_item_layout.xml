@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.view.menu.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x7f040123">
+    <RelativeLayout n1:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" n1:duplicateParentState="true" n1:layout_width="UNKNOWN_DATA_0x1" n1:layout_height="wrap_content" n1:layout_marginLeft="?attr/listPreferredItemPaddingLeft" n1:layout_marginRight="?attr/listPreferredItemPaddingRight" n1:layout_weight="1.0">
+        <TextView n1:textAppearance="?attr/textAppearanceListItemSmall" n1:ellipsize="marquee" n1:id="@id/title" n1:fadingEdge="horizontal" n1:duplicateParentState="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:singleLine="true" n1:layout_alignParentLeft="true" n1:layout_alignParentTop="true" />
+        <TextView n1:textAppearance="?unknown_attr_ref: 1010042" n1:id="@id/shortcut" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:layout_below="@id/title" n1:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</android.support.v7.view.menu.ListMenuItemView>

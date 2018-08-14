@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AlertDialogLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:orientation="vertical" n1:id="@id/parentPanel" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+    <include layout="@layout/abc_alert_dialog_title_material" />
+    <FrameLayout n1:id="@id/contentPanel" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="48dp">
+        <View n1:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" n1:id="@id/scrollIndicatorUp" n1:background="?attr/colorControlHighlight" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x101" />
+        <android.support.v4.widget.NestedScrollView n1:id="@id/scrollView" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <android.support.v4.widget.Space n1:id="@id/textSpacerNoTitle" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x7f070024" />
+                <TextView n1:id="0x102000b" n1:paddingLeft="?attr/dialogPreferredPadding" n1:paddingRight="?attr/dialogPreferredPadding" n1:layout_width="match_parent" n1:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Subhead" />
+                <android.support.v4.widget.Space n1:id="@id/textSpacerNoButtons" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x7f070024" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+        <View n1:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" n1:id="@id/scrollIndicatorDown" n1:background="?attr/colorControlHighlight" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x101" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/customPanel" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="48dp"
+        <FrameLayout n1:id="@id/custom" n1:layout_width="match_parent" n1:layout_height="wrap_content" /> />
+    <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/abc_alert_dialog_button_bar_material" />
+</android.support.v7.widget.AlertDialogLayout>

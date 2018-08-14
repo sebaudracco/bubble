@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:orientation="vertical" n1:background="@drawable/apnxt_white_round_rect" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <ImageView n1:id="@id/icon" n1:layout_width="UNKNOWN_DATA_0x3201" n1:layout_height="UNKNOWN_DATA_0x3201" n1:layout_margin="10dp" n1:layout_alignParentLeft="true" />
+    <TextView n1:textSize="14sp" n1:textColor="#ff4f4f4f" n1:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_toRightOf="@id/icon" n1:layout_alignTop="@id/icon" />
+    <RatingBar n1:id="@id/rating" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/icon" n1:layout_alignBottom="@id/icon" style="@style/apnxtRatingBar" />
+    <View n1:id="@id/click" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</RelativeLayout>

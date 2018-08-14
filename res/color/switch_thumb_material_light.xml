@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item n1:state_enabled="false" n1:color="@color/switch_thumb_disabled_material_light" />
+    <item n2:color="@color/switch_thumb_normal_material_light" />
+</selector>

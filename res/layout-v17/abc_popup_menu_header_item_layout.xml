@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:paddingLeft="16dp" n1:paddingRight="16dp" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x7f04009f" n1:minWidth="196dp">
+    <TextView n1:textAppearance="?attr/textAppearancePopupMenuHeader" n1:ellipsize="marquee" n1:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" n1:id="0x1020016" n1:fadingEdge="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:singleLine="true" n1:textAlignment="viewStart" />
+</FrameLayout>

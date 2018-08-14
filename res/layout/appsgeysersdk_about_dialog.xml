@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:id="@id/about_background" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <ImageView n1:id="@id/about_background_img" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:src="@drawable/back_lg_pr_cs" n1:scaleType="centerCrop" />
+    <FrameLayout n1:background="#dd000000" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.9" />
+    <ImageView n1:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/close_about_screen" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="8dp" n1:src="@drawable/ic_close_white_24dp" n1:foregroundGravity="left|right|center_horizontal|fill_horizontal|center|fill" />
+    <LinearLayout n1:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" n1:orientation="vertical" n1:padding="16dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="30sp" n1:textColor="0x106000b" n1:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/about_app_name" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="App Name" n1:lines="1" />
+        <TextView n1:textSize="20sp" n1:textColor="#aaffffff" n1:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/app_version" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="v1.99" />
+        <ImageView n1:id="@id/logo" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0xa001" n1:layout_marginTop="8dp" n1:layout_marginBottom="8dp" n1:src="@drawable/appsgeyser_logo" />
+        <ImageView n1:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/appsgeysersdk_about_appsgeyser_logo" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x1" n1:layout_margin="16dp" n1:src="@drawable/appsgeysersdk_about_appsgeyser_logo" n1:layout_weight="0.49" n1:foregroundGravity="top|bottom|center_vertical|fill_vertical|center|fill" />
+        <TextView n1:textSize="20sp" n1:textColor="#aaffffff" n1:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/description" n1:paddingLeft="8dp" n1:paddingRight="8dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="Description" n1:maxLines="5" />
+        <LinearLayout n1:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:orientation="horizontal" n1:padding="8dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16dp">
+            <Button n1:textColor="@color/appsgeysersdk_actionButtonBacground" n1:id="@id/app_tos" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/appsgeysersdk_app_tos" n1:textAllCaps="true" style="@style/Widget.AppCompat.Button.Borderless" />
+            <Button n1:textColor="@color/appsgeysersdk_actionButtonBacground" n1:id="@id/app_privacy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/appsgeysersdk_app_privacy" n1:textAllCaps="true" style="@style/Widget.AppCompat.Button.Borderless" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout n1:padding="8dp" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <TextView n1:textSize="14sp" n1:textColor="#88ffffff" n1:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/template_version" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="build v2.0" n1:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <WebView n1:id="@id/webView" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" />
+    <FrameLayout n1:id="@id/ban_view" n1:background="#ff000000" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent"
+        <FrameLayout n1:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:background="#fff1dddd" n1:padding="14dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <TextView n1:textSize="13sp" n1:textStyle="bold" n1:textColor="#ffa84442" n1:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/appsgeysersdk_paused_content_activity_description" />
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

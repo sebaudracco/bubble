@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:background="#ff474646" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <TextView n1:textStyle="bold|italic" n1:textColor="0x106000b" n1:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/timer" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="15dp" n1:text="6 sec" n1:lines="1" n1:layout_alignTop="@id/title" n1:layout_alignBottom="@id/title" n1:layout_alignParentRight="true" />
+    <ImageView n1:id="@id/privacy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="15dp" n1:src="@drawable/apnxt_ads_i_icon" n1:layout_alignTop="@id/title" n1:layout_alignBottom="@id/title" n1:layout_alignParentLeft="true" />
+    <TextView n1:textSize="27sp" n1:textColor="0x106000b" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="20dp" n1:layout_marginTop="20dp" n1:text="Which Video" n1:layout_toRightOf="@id/privacy" n1:layout_centerHorizontal="true" n1:scaleY="1.1" />
+    <TextView n1:textSize="27sp" n1:textStyle="bold" n1:textColor="0x106000b" n1:ellipsize="end" n1:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/secondTile" n1:paddingLeft="5dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20dp" n1:text="would you like to watch?" n1:lines="1" n1:layout_toLeftOf="@id/timer" n1:layout_toRightOf="@id/title" n1:layout_centerHorizontal="true" n1:scaleY="1.1" />
+    <LinearLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="20dp" n1:baselineAligned="false" n1:layout_below="@id/title">
+        <include n1:id="@id/item1" n1:layout_width="UNKNOWN_DATA_0x1" n1:layout_height="match_parent" n1:layout_weight="1.0" layout="@layout/apnxt_s1t2_item" />
+        <include n1:id="@id/item2" n1:layout_width="UNKNOWN_DATA_0x1" n1:layout_height="match_parent" n1:layout_weight="1.0" layout="@layout/apnxt_s1t2_item" />
+    </LinearLayout>
+</RelativeLayout>

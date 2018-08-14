@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:id="@id/appsgeysersdk_main_content" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout n1:theme="@style/AppsgeyserSDK.AppTheme.AppBarOverlay" n1:id="@id/appbar" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar n2:id="@id/toolbar" n2:background="@color/appsgeysersdk_native_ad_toolbar_background" n2:layout_width="match_parent" n2:layout_height="UNKNOWN_DATA_0x7f040003" n2:layout_scrollFlags="5" n2:popupTheme="@style/AppsgeyserSDK.AppTheme.PopupOverlay" n2:title="@string/appsgeysersdk_native_ad_activity" />
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout n3:layout_width="match_parent" n3:layout_height="wrap_content" n3:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v7.widget.RecyclerView n3:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n3:id="@id/appsgeysersdk_nativeAdRecycler" n3:paddingLeft="16dp" n3:paddingTop="8dp" n3:paddingRight="16dp" n3:paddingBottom="8dp" n3:clipChildren="false" n3:clipToPadding="false" n3:layout_width="match_parent" n3:layout_height="wrap_content" />
+        <ProgressBar n3:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n3:id="@id/appsgeysersdk_nativeAdProgressBar" n3:layout_width="wrap_content" n3:layout_height="wrap_content" />
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:background="#ff474646" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <ImageView n1:id="@id/privacy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="10dp" n1:src="@drawable/apnxt_ads_i_icon" n1:layout_alignParentLeft="true" />
+    <TextView n1:textStyle="bold|italic" n1:textColor="0x106000b" n1:id="@id/timer" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="12dp" n1:text="6 sec" n1:layout_alignParentRight="true" />
+    <TextView n1:textSize="26sp" n1:textColor="0x106000b" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="Which Video" n1:layout_toRightOf="@id/privacy" n1:layout_below="@id/privacy" n1:scaleY="1.1" />
+    <TextView n1:textSize="27sp" n1:textStyle="bold" n1:textColor="0x106000b" n1:id="@id/secondTile" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="would you like to watch?" n1:layout_below="@id/title" n1:layout_alignLeft="@id/title" n1:fontFamily="sans-serif" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="10dp" n1:layout_below="@id/secondTile">
+        <include n1:id="@id/item1" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x1" n1:layout_weight="1.0" layout="@layout/apnxt_s1t2_item" />
+        <include n1:id="@id/item2" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x1" n1:layout_weight="1.0" layout="@layout/apnxt_s1t2_item" />
+    </LinearLayout>
+</RelativeLayout>

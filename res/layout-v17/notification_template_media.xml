@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:orientation="horizontal" n1:id="@id/status_bar_latest_event_content" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x4001">
+    <include n1:layout_width="UNKNOWN_DATA_0x7f070094" n1:layout_height="UNKNOWN_DATA_0x7f070093" layout="@layout/notification_template_icon_group" />
+    <include n1:layout_width="UNKNOWN_DATA_0x1" n1:layout_height="wrap_content" n1:layout_weight="1.0" layout="@layout/notification_template_lines_media" />
+    <LinearLayout n1:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:orientation="horizontal" n1:id="@id/media_actions" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layoutDirection="ltr" />
+    <include n1:layout_width="UNKNOWN_DATA_0x3001" n1:layout_height="match_parent" n1:layout_marginRight="6dp" n1:layout_marginEnd="6dp" layout="@layout/notification_media_cancel_action" />
+    <ImageView n1:id="@id/end_padder" n1:layout_width="UNKNOWN_DATA_0x601" n1:layout_height="match_parent" />
+</LinearLayout>

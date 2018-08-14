@@ -1,0 +1,181 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.view.View;
+import com.google.android.gms.dynamic.IObjectWrapper;
+import com.google.android.gms.dynamic.ObjectWrapper;
+import java.util.List;
+import javax.annotation.ParametersAreNonnullByDefault;
+
+@zzadh
+@ParametersAreNonnullByDefault
+public final class zzoo extends zzql implements zzpc {
+    private Bundle mExtras;
+    private Object mLock = new Object();
+    private String zzbhw;
+    private List<zzon> zzbhx;
+    private String zzbhy;
+    private zzpw zzbhz;
+    private String zzbia;
+    private double zzbib;
+    private String zzbic;
+    private String zzbid;
+    @Nullable
+    private zzoj zzbie;
+    @Nullable
+    private zzlo zzbif;
+    @Nullable
+    private View zzbig;
+    @Nullable
+    private IObjectWrapper zzbih;
+    @Nullable
+    private String zzbii;
+    private zzoz zzbij;
+
+    public zzoo(String str, List<zzon> list, String str2, zzpw com_google_android_gms_internal_ads_zzpw, String str3, double d, String str4, String str5, @Nullable zzoj com_google_android_gms_internal_ads_zzoj, Bundle bundle, zzlo com_google_android_gms_internal_ads_zzlo, View view, IObjectWrapper iObjectWrapper, String str6) {
+        this.zzbhw = str;
+        this.zzbhx = list;
+        this.zzbhy = str2;
+        this.zzbhz = com_google_android_gms_internal_ads_zzpw;
+        this.zzbia = str3;
+        this.zzbib = d;
+        this.zzbic = str4;
+        this.zzbid = str5;
+        this.zzbie = com_google_android_gms_internal_ads_zzoj;
+        this.mExtras = bundle;
+        this.zzbif = com_google_android_gms_internal_ads_zzlo;
+        this.zzbig = view;
+        this.zzbih = iObjectWrapper;
+        this.zzbii = str6;
+    }
+
+    public final void destroy() {
+        zzakk.zzcrm.post(new zzop(this));
+        this.zzbhw = null;
+        this.zzbhx = null;
+        this.zzbhy = null;
+        this.zzbhz = null;
+        this.zzbia = null;
+        this.zzbib = 0.0d;
+        this.zzbic = null;
+        this.zzbid = null;
+        this.zzbie = null;
+        this.mExtras = null;
+        this.mLock = null;
+        this.zzbif = null;
+        this.zzbig = null;
+    }
+
+    public final String getBody() {
+        return this.zzbhy;
+    }
+
+    public final String getCallToAction() {
+        return this.zzbia;
+    }
+
+    public final String getCustomTemplateId() {
+        return "";
+    }
+
+    public final Bundle getExtras() {
+        return this.mExtras;
+    }
+
+    public final String getHeadline() {
+        return this.zzbhw;
+    }
+
+    public final List getImages() {
+        return this.zzbhx;
+    }
+
+    @Nullable
+    public final String getMediationAdapterClassName() {
+        return this.zzbii;
+    }
+
+    public final String getPrice() {
+        return this.zzbid;
+    }
+
+    public final double getStarRating() {
+        return this.zzbib;
+    }
+
+    public final String getStore() {
+        return this.zzbic;
+    }
+
+    public final zzlo getVideoController() {
+        return this.zzbif;
+    }
+
+    public final void performClick(Bundle bundle) {
+        synchronized (this.mLock) {
+            if (this.zzbij == null) {
+                zzane.m3427e("#001 Attempt to perform click before app native ad initialized.");
+                return;
+            }
+            this.zzbij.performClick(bundle);
+        }
+    }
+
+    public final boolean recordImpression(Bundle bundle) {
+        boolean z;
+        synchronized (this.mLock) {
+            if (this.zzbij == null) {
+                zzane.m3427e("#002 Attempt to record impression before native ad initialized.");
+                z = false;
+            } else {
+                z = this.zzbij.recordImpression(bundle);
+            }
+        }
+        return z;
+    }
+
+    public final void reportTouchEvent(Bundle bundle) {
+        synchronized (this.mLock) {
+            if (this.zzbij == null) {
+                zzane.m3427e("#003 Attempt to report touch event before native ad initialized.");
+                return;
+            }
+            this.zzbij.reportTouchEvent(bundle);
+        }
+    }
+
+    public final void zzb(zzoz com_google_android_gms_internal_ads_zzoz) {
+        synchronized (this.mLock) {
+            this.zzbij = com_google_android_gms_internal_ads_zzoz;
+        }
+    }
+
+    public final zzpw zzjz() {
+        return this.zzbhz;
+    }
+
+    public final IObjectWrapper zzka() {
+        return ObjectWrapper.wrap(this.zzbij);
+    }
+
+    public final String zzkb() {
+        return "2";
+    }
+
+    public final zzoj zzkc() {
+        return this.zzbie;
+    }
+
+    public final View zzkd() {
+        return this.zzbig;
+    }
+
+    public final IObjectWrapper zzke() {
+        return this.zzbih;
+    }
+
+    public final zzps zzkf() {
+        return this.zzbie;
+    }
+}

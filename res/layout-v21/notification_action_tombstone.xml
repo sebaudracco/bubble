@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:enabled="false" n1:orientation="horizontal" n1:id="@id/action_container" n1:background="0x0" n1:layout_width="UNKNOWN_DATA_0x1" n1:layout_height="UNKNOWN_DATA_0x3001" n1:layout_weight="1.0" n1:paddingStart="4dp" style="@style/Widget.Compat.NotificationActionContainer">
+    <ImageView n1:enabled="false" n1:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/action_image" n1:layout_width="UNKNOWN_DATA_0x7f07008f" n1:layout_height="UNKNOWN_DATA_0x7f07008f" n1:scaleType="centerInside" n1:alpha="0.5" />
+    <TextView n1:enabled="false" n1:ellipsize="end" n1:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/action_text" n1:clickable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:alpha="0.5" n1:paddingStart="4dp" style="@style/Widget.Compat.NotificationActionText" />
+</LinearLayout>

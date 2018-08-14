@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:id="@id/status_bar_latest_event_content" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x8001">
+    <ImageView n1:id="@id/icon" n1:layout_width="UNKNOWN_DATA_0x8001" n1:layout_height="UNKNOWN_DATA_0x8001" n1:scaleType="centerCrop" />
+    <include n1:layout_width="UNKNOWN_DATA_0x3001" n1:layout_height="UNKNOWN_DATA_0x3001" n1:layout_marginLeft="2dp" n1:layout_marginRight="2dp" n1:layout_alignParentRight="true" layout="@layout/notification_media_cancel_action" />
+    <include n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="128dp" n1:layout_toLeftOf="@id/cancel_action" layout="@layout/notification_template_lines_media" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/media_actions" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x3001" n1:layout_marginLeft="12dp" n1:layout_marginRight="12dp" n1:layout_toRightOf="@id/icon" n1:layout_alignParentBottom="true" />
+    <ImageView n1:id="@id/action_divider" n1:background="?unknown_attr_ref: 101032c" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x101" n1:layout_toRightOf="@id/icon" n1:layout_above="@id/media_actions" />
+</RelativeLayout>

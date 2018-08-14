@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DateTimeView xmlns:android="http://schemas.android.com/apk/res/android" n1:textAppearance="@style/TextAppearance.Compat.Notification.Time" n1:id="@id/time" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" />

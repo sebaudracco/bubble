@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item n1:state_pressed="true" n1:drawable="@r$drawable/attach_contact_pressed" />
+    <item n2:state_selected="true" n2:drawable="@r$drawable/attach_contact_pressed" />
+    <item n3:drawable="@r$drawable/attach_contact" />
+</selector>

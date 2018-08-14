@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android" n1:drawable="@r$drawable/ab_progress" n1:fromDegrees="0.0" n1:toDegrees="360.0" n1:pivotX="50%" n1:pivotY="50%" />

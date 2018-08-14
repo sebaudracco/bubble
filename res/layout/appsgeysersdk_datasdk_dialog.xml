@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:orientation="vertical" n1:padding="14dp" n1:layout_width="match_parent" n1:layout_height="match_parent"
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x1" n1:layout_weight="1.0">
+        <TextView n1:textSize="20sp" n1:textStyle="bold" n1:textColor="#ff3db9e6" n1:id="@id/appsgeysersdk_datasdk_dialog_title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="4dp" />
+        <WebView n1:scrollbarThumbVertical="@drawable/webview_scroll" n1:id="@id/appsgeysersdk_datasdk_dialog_web_view" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="4dp" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="12sp" n1:textColor="#ff7b7b7b" n1:id="@id/appsgeysersdk_datasdk_dialog_decline" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="6dp" n1:text="@string/appsgeysersdk_eula_decline" n1:textAllCaps="true" />
+        <TextView n1:textSize="16sp" n1:textStyle="bold" n1:textColor="#ff27ca59" n1:id="@id/appsgeysersdk_datasdk_dialog_accept" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="6dp" n1:text="@string/appsgeysersdk_eula_accept" n1:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

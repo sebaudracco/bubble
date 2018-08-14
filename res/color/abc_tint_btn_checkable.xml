@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item n2:state_enabled="false" n2:color="?attr/colorControlNormal" n2:alpha="?unknown_attr_ref: 1010033" />
+    <item n3:state_checked="true" n3:color="?attr/colorControlActivated" />
+    <item n4:color="?attr/colorControlNormal" />
+</selector>

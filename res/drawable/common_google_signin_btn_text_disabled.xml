@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item n1:left="3dp" n1:top="3dp" n1:right="3dp" n1:bottom="3dp">
+        <shape n1:shape="rectangle">
+            <solid n1:color="#ffebebeb" />
+            <corners n1:radius="2dp" />
+            <padding n1:left="50dp" n1:top="8dp" n1:right="11dp" n1:bottom="7dp" />
+        </shape>
+    </item>
+    <item n2:left="-36dp">
+        <bitmap n2:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n2:src="@drawable/googleg_disabled_color_18" />
+    </item>
+</layer-list>

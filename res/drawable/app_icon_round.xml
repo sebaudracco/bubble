@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape n1:shape="oval">
+            <solid n1:color="0x106000b" />
+        </shape>
+    </item>
+    <item n2:drawable="@r$drawable/app_icon" n2:left="12dp" n2:top="12dp" n2:right="12dp" n2:bottom="12dp" />
+</layer-list>

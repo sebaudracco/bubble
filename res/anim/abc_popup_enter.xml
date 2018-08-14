@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" n1:shareInterpolator="false">
+    <alpha n1:interpolator="0x10a0006" n1:duration="@integer/abc_config_activityShortDur" n1:fromAlpha="0.0" n1:toAlpha="1.0" />
+</set>

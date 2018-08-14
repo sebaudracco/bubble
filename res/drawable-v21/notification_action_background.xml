@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" n1:color="@color/ripple_material_light">
+    <item n1:id="0x102002e">
+        <inset n1:insetLeft="@dimen/compat_button_inset_horizontal_material" n1:insetRight="@dimen/compat_button_inset_horizontal_material" n1:insetTop="@dimen/compat_button_inset_vertical_material" n1:insetBottom="@dimen/compat_button_inset_vertical_material">
+            <shape n1:shape="rectangle">
+                <corners n1:radius="@dimen/compat_control_corner_material" />
+                <solid n1:color="0x106000b" />
+                <padding n1:left="@dimen/compat_button_padding_horizontal_material" n1:top="@dimen/compat_button_padding_vertical_material" n1:right="@dimen/compat_button_padding_horizontal_material" n1:bottom="@dimen/compat_button_padding_vertical_material" />
+            </shape>
+        </inset>
+    </item>
+</ripple>

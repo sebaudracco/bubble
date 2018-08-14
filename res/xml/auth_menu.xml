@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory n1:title="@string/Settings" />
+    <PreferenceScreen n2:title="@string/AccountSettings" n2:key="account_settings" n2:summary="">
+        <intent n2:targetPackage="org.telegram.messenger" n2:action="org.telegram.messenger.OPEN_ACCOUNT" n2:targetClass="org.telegram.ui.LaunchActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

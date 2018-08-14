@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x8c01" n1:layout_marginLeft="25dp" n1:layout_marginTop="25dp" n1:layout_marginRight="25dp" n1:layout_marginBottom="10dp">
+    <View n1:id="@id/view" n1:background="0x106000b" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x4b01" n1:layout_marginBottom="40dp" n1:layout_alignParentBottom="true" />
+    <ImageView n1:id="@id/icon" n1:layout_width="UNKNOWN_DATA_0x5501" n1:layout_height="UNKNOWN_DATA_0x5501" n1:layout_marginLeft="13dp" n1:layout_marginBottom="13dp" n1:layout_alignBottom="@id/view" n1:layout_alignParentLeft="true" />
+    <ImageView n1:id="@id/playButton" n1:layout_width="UNKNOWN_DATA_0x1901" n1:layout_height="UNKNOWN_DATA_0x1901" n1:layout_marginTop="9dp" n1:src="@drawable/apnxt_play_button" n1:layout_below="@id/icon" n1:layout_alignLeft="@id/icon" />
+    <TextView n1:textSize="22sp" n1:textColor="0x106000b" n1:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/playGameTextView" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="7dp" n1:text="Play this video" n1:layout_toRightOf="@id/playButton" n1:layout_below="@id/icon" n1:scaleY="1.1" n1:fontFamily="sans-serif" />
+    <TextView n1:textSize="16sp" n1:textColor="#ff898989" n1:ellipsize="end" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="10dp" n1:layout_marginTop="15dp" n1:layout_marginRight="10dp" n1:lines="1" n1:layout_toRightOf="@id/icon" n1:layout_alignTop="@id/view" n1:layout_alignParentRight="true" n1:fontFamily="sans-serif" />
+    <RatingBar n1:id="@id/ratingBar" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="5dp" n1:layout_alignLeft="@id/title" n1:layout_alignBottom="@id/icon" style="@style/apnxtRatingBar" />
+    <View n1:id="@id/click" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</RelativeLayout>

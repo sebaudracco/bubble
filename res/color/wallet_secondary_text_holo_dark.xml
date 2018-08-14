@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item n1:state_window_focused="false" n1:state_enabled="false" n1:color="@color/wallet_dim_foreground_disabled_holo_dark" />
+    <item n2:state_window_focused="false" n2:color="@color/wallet_dim_foreground_holo_dark" />
+    <item n3:state_enabled="false" n3:state_selected="true" n3:color="@color/wallet_dim_foreground_disabled_holo_dark" />
+    <item n4:state_enabled="false" n4:state_pressed="true" n4:color="@color/wallet_dim_foreground_disabled_holo_dark" />
+    <item n5:state_selected="true" n5:color="@color/wallet_dim_foreground_holo_dark" />
+    <item n6:state_pressed="true" n6:color="@color/wallet_dim_foreground_holo_dark" />
+    <item n7:state_enabled="false" n7:color="@color/wallet_dim_foreground_disabled_holo_dark" />
+    <item n8:color="@color/wallet_dim_foreground_holo_dark" />
+</selector>

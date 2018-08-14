@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" n2:layout_width="match_parent" n2:layout_height="wrap_content" n2:layout_margin="8dp" n2:cardCornerRadius="8dp" n2:cardElevation="6dp">
+    <com.google.android.gms.ads.formats.NativeAppInstallAdView n2:id="@id/appsgeysersdk_admobRootView" n2:layout_width="match_parent" n2:layout_height="match_parent">
+        <RelativeLayout n2:padding="8dp" n2:layout_width="match_parent" n2:layout_height="wrap_content">
+            <ImageView n2:id="@id/appsgeysersdk_adsIcon" n2:layout_width="UNKNOWN_DATA_0x4801" n2:layout_height="UNKNOWN_DATA_0x4801" n2:layout_centerVertical="true" />
+            <Button n2:textSize="12sp" n2:id="@id/appsgeysersdk_adsActionButton" n2:background="@drawable/appsgeysersdk_action_button_background" n2:layout_width="wrap_content" n2:layout_height="UNKNOWN_DATA_0x2801" n2:layout_alignParentRight="true" n2:layout_centerVertical="true" />
+            <ProgressBar n2:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n2:id="@id/appsgeysersdk_itemProgressBar" n2:visibility="gone" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:layout_marginRight="16dp" n2:layout_alignParentRight="true" n2:layout_centerVertical="true" />
+            <LinearLayout n2:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n2:orientation="vertical" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:layout_margin="8dp" n2:layout_toLeftOf="@id/appsgeysersdk_adsActionButton" n2:layout_toRightOf="@id/appsgeysersdk_adsIcon" n2:layout_centerVertical="true">
+                <TextView n2:textColor="0x106000c" n2:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n2:id="@id/appsgeysersdk_adsTitle" n2:layout_width="wrap_content" n2:layout_height="wrap_content" />
+                <TextView n2:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n2:id="@id/appsgeysersdk_adsDescription" n2:layout_width="wrap_content" n2:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.google.android.gms.ads.formats.NativeAppInstallAdView>
+</android.support.v7.widget.CardView>

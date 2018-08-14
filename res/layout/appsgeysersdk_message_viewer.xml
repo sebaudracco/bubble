@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" n1:layout_width="match_parent" n1:layout_height="match_parent"
+    <RelativeLayout n1:orientation="horizontal" n1:id="@id/message_viewer_app_bar_fake" n1:layout_width="match_parent" n1:layout_height="UNKNOWN_DATA_0x7f07004a">
+        <ImageView n1:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" n1:id="@id/message_viewer_imageView_icon" n1:layout_width="UNKNOWN_DATA_0x7f07004e" n1:layout_height="UNKNOWN_DATA_0x7f07004c" n1:layout_margin="@dimen/appsgeysersdk_message_viewer_icon_margin" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" n1:contentDescription="@string/appsgeysersdk_message_viewer_app_icon_description" />
+        <TextView n1:textSize="@dimen/appsgeysersdk_message_viewer_app_name_text_size" n1:textColor="#ffffffff" n1:gravity="top|bottom|center_vertical|fill_vertical|center|fill" n1:id="@id/message_viewer_app_name_text_view" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_toRightOf="@id/message_viewer_imageView_icon" />
+    </RelativeLayout>
+    <WebView n1:id="@id/message_viewer_web_view" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/message_viewer_app_bar_fake" n1:layout_alignParentLeft="true" />
+    <Button n1:id="@id/message_viewer_button" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/appsgeysersdk_message_viewer_launch_button_margin_bottom" n1:text="@string/appsgeysersdk_message_viewer_launch_app" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,52 @@
+package mf.org.apache.xerces.dom3.as;
+
+public interface ASDataType {
+    public static final short ANYURI_DATATYPE = (short) 106;
+    public static final short BASE64BINARY_DATATYPE = (short) 105;
+    public static final short BOOLEAN_DATATYPE = (short) 100;
+    public static final short BYTE_DATATYPE = (short) 210;
+    public static final short COMPLEX_DATATYPE = (short) 1001;
+    public static final short DATETIME_DATATYPE = (short) 109;
+    public static final short DATE_DATATYPE = (short) 110;
+    public static final short DECIMAL_DATATYPE = (short) 103;
+    public static final short DOUBLE_DATATYPE = (short) 102;
+    public static final short DURATION_DATATYPE = (short) 108;
+    public static final short ENTITIES_DATATYPE = (short) 15;
+    public static final short ENTITY_DATATYPE = (short) 14;
+    public static final short FLOAT_DATATYPE = (short) 101;
+    public static final short GDAY_DATATYPE = (short) 115;
+    public static final short GMONTHDAY_DATATYPE = (short) 114;
+    public static final short GMONTH_DATATYPE = (short) 116;
+    public static final short GYEARMONTH_DATATYPE = (short) 112;
+    public static final short GYEAR_DATATYPE = (short) 113;
+    public static final short HEXBINARY_DATATYPE = (short) 104;
+    public static final short IDREFS_DATATYPE = (short) 13;
+    public static final short IDREF_DATATYPE = (short) 12;
+    public static final short ID_DATATYPE = (short) 11;
+    public static final short INTEGER = (short) 117;
+    public static final short INT_DATATYPE = (short) 208;
+    public static final short LANGUAGE_DATATYPE = (short) 204;
+    public static final short LONG_DATATYPE = (short) 207;
+    public static final short NAME_DATATYPE = (short) 200;
+    public static final short NCNAME_DATATYPE = (short) 201;
+    public static final short NEGATIVEINTEGER_DATATYPE = (short) 206;
+    public static final short NMTOKENS_DATATYPE = (short) 17;
+    public static final short NMTOKEN_DATATYPE = (short) 16;
+    public static final short NONNEGATIVEINTEGER_DATATYPE = (short) 211;
+    public static final short NONPOSITIVEINTEGER_DATATYPE = (short) 205;
+    public static final short NORMALIZEDSTRING_DATATYPE = (short) 202;
+    public static final short NOTATION_DATATYPE = (short) 10;
+    public static final short OTHER_SIMPLE_DATATYPE = (short) 1000;
+    public static final short POSITIVEINTEGER_DATATYPE = (short) 216;
+    public static final short QNAME_DATATYPE = (short) 107;
+    public static final short SHORT_DATATYPE = (short) 209;
+    public static final short STRING_DATATYPE = (short) 1;
+    public static final short TIME_DATATYPE = (short) 111;
+    public static final short TOKEN_DATATYPE = (short) 203;
+    public static final short UNSIGNEDBYTE_DATATYPE = (short) 215;
+    public static final short UNSIGNEDINT_DATATYPE = (short) 213;
+    public static final short UNSIGNEDLONG_DATATYPE = (short) 212;
+    public static final short UNSIGNEDSHORT_DATATYPE = (short) 214;
+
+    short getDataType();
+}

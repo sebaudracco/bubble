@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate n1:duration="10" n1:fromDegrees="0.0" n1:toDegrees="45.0" n1:pivotX="50%" n1:pivotY="50%" n1:startOffset="0" />
+    <rotate n2:duration="10" n2:fromDegrees="0.0" n2:toDegrees="45.0" n2:pivotX="50%" n2:pivotY="50%" n2:startOffset="100" />
+    <rotate n3:duration="10" n3:fromDegrees="0.0" n3:toDegrees="45.0" n3:pivotX="50%" n3:pivotY="50%" n3:startOffset="200" />
+    <rotate n4:duration="10" n4:fromDegrees="0.0" n4:toDegrees="45.0" n4:pivotX="50%" n4:pivotY="50%" n4:startOffset="300" />
+    <rotate n5:duration="10" n5:fromDegrees="0.0" n5:toDegrees="45.0" n5:pivotX="50%" n5:pivotY="50%" n5:startOffset="400" />
+    <rotate n6:duration="10" n6:fromDegrees="0.0" n6:toDegrees="45.0" n6:pivotX="50%" n6:pivotY="50%" n6:startOffset="500" />
+    <rotate n7:duration="10" n7:fromDegrees="0.0" n7:toDegrees="45.0" n7:pivotX="50%" n7:pivotY="50%" n7:startOffset="600" />
+    <rotate n8:duration="10" n8:fromDegrees="0.0" n8:toDegrees="45.0" n8:pivotX="50%" n8:pivotY="50%" n8:startOffset="700" />
+</set>

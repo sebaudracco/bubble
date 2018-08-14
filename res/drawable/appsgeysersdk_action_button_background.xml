@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item n1:drawable="@drawable/appsgeysersdk_button_click_effect">
+        <shape n1:shape="rectangle">
+            <corners n1:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>
